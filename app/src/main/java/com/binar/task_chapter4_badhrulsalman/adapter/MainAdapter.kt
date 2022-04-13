@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.binar.task_chapter4_badhrulsalman.FirstFragmentDirections
+import com.binar.task_chapter4_badhrulsalman.data.models.GetAllCarResponseItem
 import com.binar.task_chapter4_badhrulsalman.databinding.ItemContentBinding
-import com.binar.task_chapter4_badhrulsalman.models.GetAllCarResponseItem
 
 class MainAdapter (private val onItemClick: OnClickListener): RecyclerView.Adapter<MainAdapter.ViewHolder>() {
 

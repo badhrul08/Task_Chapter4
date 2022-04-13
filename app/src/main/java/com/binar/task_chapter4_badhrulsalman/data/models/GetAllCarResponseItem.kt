@@ -1,4 +1,4 @@
-package com.binar.task_chapter4_badhrulsalman.models
+package com.binar.task_chapter4_badhrulsalman.data.models
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

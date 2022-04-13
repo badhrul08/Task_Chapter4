@@ -11,6 +11,9 @@
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
+            android:id="@+id/action_firstFragment_to_test1Fragment"
+            app:destination="@id/test1Fragment" />
+        <action
             android:id="@+id/action_firstFragment_to_secondFragment"
             app:destination="@id/secondFragment" />
     </fragment>
@@ -20,7 +23,25 @@
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <argument
-            android:name="cars"
-            app:argType="com.binar.task_chapter4_badhrulsalman.models.GetAllCarResponseItem" />
+            android:name="Cars"
+            app:argType="com.binar.task_chapter4_badhrulsalman.data.models.GetAllCarResponseItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/test1Fragment"
+        android:name="com.binar.task_chapter4_badhrulsalman.Test1Fragment"
+        android:label="fragment_test1"
+        tools:layout="@layout/fragment_test1" >
+        <action
+            android:id="@+id/action_test1Fragment_to_test2Fragment"
+            app:destination="@id/test2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/test2Fragment"
+        android:name="com.binar.task_chapter4_badhrulsalman.Test2Fragment"
+        android:label="fragment_test2"
+        tools:layout="@layout/fragment_test2" >
+        <argument
+            android:name="registerData"
+            app:argType="com.binar.task_chapter4_badhrulsalman.request.RegisterRequest" />
     </fragment>
 </navigation>

@@ -6,4 +6,10 @@
     <string name="price">Harganya</string>
     <string name="title">Judul</string>
     <string name="id">Id</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="role">Role</string>
+    <string name="register">REGISTER</string>
+    <string name="add_data">add data</string>
+    <string name="success">Registrasi Berhasil</string>
 </resources>
